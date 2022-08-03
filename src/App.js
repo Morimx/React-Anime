@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./App.css";
 import Navbar1 from "./Components/Navbar/navbar";
 import Openings from "./pages/Openings/openings";
@@ -8,9 +8,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 //import { useState } from "react";
 import "./App.css";
+//import { Apiget } from "./services/Apiget";
 
 function App() {
-
   return (
     <>
       <Navbar1 />
