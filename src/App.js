@@ -6,9 +6,8 @@ import Endings from "./pages/Endings/endings";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-//import { useState } from "react";
 import "./App.css";
-//import { Apiget } from "./services/Apiget";
+
 
 function App() {
   return (
